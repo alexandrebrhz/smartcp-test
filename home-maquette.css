@@ -1084,4 +1084,6 @@ body.mockup-home{
 .mh-menu a.mh-icon::after{display:none!important}
 .mh-menu a.mh-icon:hover,.mh-menu a.mh-icon:focus-visible{color:var(--purple);border-color:var(--purple)}
 .mh-icon-txt{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-@media(max-width:980px){.mh-menu a.mh-icon{display:inline-flex;align-items:center;gap:10px;width:auto;height:auto;border:0;border-radius:0}.mh-menu .mh-icon-txt{position:static;width:auto;height:auto;clip:auto}}
+@media(max-width:980px){.mh-menu a.mh-icon{display:inline-flex;align-items:center;gap:10px;width:auto;height:auto;border:0;border-radius:0}.mh-menu .mh-icon-txt{position:static;width:auto;height:auto;clip:auto}}.mh-logo{flex:0 0 auto}
+@media(min-width:1200px){.mh-menu{gap:22px}}
+@media(min-width:981px) and (max-width:1199px){.mh-menu{gap:12px}.mh-menu a.mh-icon{width:34px;height:34px}}
