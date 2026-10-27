@@ -49,7 +49,7 @@ window.smartcpSubmitContact = function(form, event) {
 
   fetch(form.action, {
     method: 'POST',
-    body: payload,
+    body: new URLSearchParams(payload), // V109 : format lu par Google Apps Script
     mode: 'no-cors',
     cache: 'no-store',
     credentials: 'omit',
